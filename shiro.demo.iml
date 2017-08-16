@@ -12,7 +12,22 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-cache.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mybatis.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-shiro.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-timer.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring.xml</file>
+        </fileset>
+        <fileset id="web application context" name="MVC application context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/webapp/spring.xml</file>
+        </fileset>
+        <fileset id="web springMvc servlet context" name="MVC springMvc servlet context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/webapp/spring-mvc.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
