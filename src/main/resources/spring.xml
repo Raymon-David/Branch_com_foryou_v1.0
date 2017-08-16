@@ -19,17 +19,17 @@
 		<property name="ignoreResourceNotFound" value="true" />
 		<property name="locations">
 			<list>
-				<value>classpath:jdbc.properties</value>
-				<value>classpath:config.properties</value>
-				<value>classpath:shiro-config.properties</value>
+				<value>classpath:src/main/resources/jdbc.properties</value>
+				<value>classpath:src/main/resources/config.properties</value>
+				<value>classpath:src/main/resources/shiro-config.properties</value>
 			</list>
 		</property>
 	</bean>
 	
 	
-	<import resource="spring-mybatis.xml"/>
-	<import resource="spring-cache.xml"/>
-	<import resource="spring-shiro.xml"/>
+	<import resource="classpath:src/main/resources/spring-mybatis.xml"/>
+	<import resource="classpath:src/main/resources/spring-cache.xml"/>
+	<import resource="classpath:src/main/resources/spring-shiro.xml"/>
 	<!-- 定时任务，运行去掉
 	<import resource="spring-timer.xml"/>
 	 -->
