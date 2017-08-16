@@ -3,9 +3,9 @@ package com.foryou.common.utils;
 import org.apache.log4j.Logger;
 /**
  * 
- * 开发公司：SOJSON在线工具 <p>
+ * 开发公司：foryou在线工具 <p>
  * 版权所有：© www.foryou.com<p>
- * 博客地址：http://www.sojson.com/blog/  <p>
+ * 博客地址：http://www.foryou.com/blog/  <p>
  * <p>
  * 
  * Log输出封装

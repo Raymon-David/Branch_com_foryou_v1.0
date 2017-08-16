@@ -1,7 +1,7 @@
-本项目详细介绍请看：http://www.sojson.com/shiro （强烈推荐）
+本项目详细介绍请看：http://www.foryou.com/shiro （强烈推荐）
 aini
 Demo已经部署到线上，地址是http://shiro.itboy.net，
-管理员帐号：admin，密码：sojson.com 如果密码错误，请用sojson。
+管理员帐号：admin，密码：foryou.com 如果密码错误，请用foryou。
 PS：你可以注册自己的帐号，然后用管理员赋权限给你自己的帐号，但是，每20分钟会把数据初始化一次。建议自己下载源码，让Demo跑起来，然后跑的更快，有问题加群解决。
 
 声明：
@@ -21,10 +21,10 @@ PS：你可以注册自己的帐号，然后用管理员赋权限给你自己的
 
 
 管理员帐号：admin
-密码：sojson.com
+密码：foryou.com
 
 
-新版本说明：http://www.sojson.com/blog/164.html 和 http://www.sojson.com/blog/165.html
+新版本说明：http://www.foryou.com/blog/164.html 和 http://www.foryou.com/blog/165.html
 
 
 主要解决是之前说的问题：Shiro 教程，关于最近反应的相关异常问题，解决方法合集。

@@ -20,9 +20,9 @@ import com.foryou.core.shiro.CustomShiroSessionDAO;
 import com.foryou.user.bo.UserOnlineBo;
 /**
  * 
- * 开发公司：SOJSON在线工具 <p>
+ * 开发公司：foryou在线工具 <p>
  * 版权所有：© www.foryou.com<p>
- * 博客地址：http://www.sojson.com/blog/  <p>
+ * 博客地址：http://www.foryou.com/blog/  <p>
  * <p>
  * 
  * 用户Session 手动管理

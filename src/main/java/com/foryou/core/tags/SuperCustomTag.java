@@ -5,9 +5,9 @@ import java.util.Map;
 import com.foryou.common.utils.StringUtils;
 /**
  * 
- * 开发公司：SOJSON在线工具 <p>
+ * 开发公司：foryou在线工具 <p>
  * 版权所有：© www.foryou.com<p>
- * 博客地址：http://www.sojson.com/blog/  <p>
+ * 博客地址：http://www.foryou.com/blog/  <p>
  * <p>
  * 
  *  自定义标签的父类。

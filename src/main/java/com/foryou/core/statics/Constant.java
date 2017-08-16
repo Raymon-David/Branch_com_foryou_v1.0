@@ -7,9 +7,9 @@ import com.foryou.core.config.IConfig;
 
 /**
  * 
- * 开发公司：SOJSON在线工具 <p>
+ * 开发公司：foryou在线工具 <p>
  * 版权所有：© www.foryou.com<p>
- * 博客地址：http://www.sojson.com/blog/  <p>
+ * 博客地址：http://www.foryou.com/blog/  <p>
  * <p>
  * 
  * 静态变量
@@ -78,5 +78,5 @@ public interface Constant {
 	
 	
 	//存储到缓存，标识用户的禁止状态，解决在线用户踢出的问题
-	final static String  EXECUTE_CHANGE_USER = "SOJSON_EXECUTE_CHANGE_USER";
+	final static String  EXECUTE_CHANGE_USER = "foryou_EXECUTE_CHANGE_USER";
 }
