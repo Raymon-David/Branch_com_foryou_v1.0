@@ -20,7 +20,7 @@
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:src/main/resources/spring.xml</param-value>
+		<param-value>classpath:spring.xml</param-value>
 	</context-param>
 
 	<filter>
@@ -46,7 +46,7 @@
 	</context-param>
 	<context-param>
 		<param-name>log4jConfigLocation</param-name>
-		<param-value>classpath:src/main/resources/log4j.properties</param-value>
+		<param-value>classpath:log4j.properties</param-value>
 	</context-param>
 	<context-param>
 		<param-name>log4jRefreshInterval</param-name>
@@ -88,7 +88,7 @@
 		<init-param>
 			<description>spring mvc 配置文件</description>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:src/main/resources/spring-mvc.xml</param-value>
+			<param-value>classpath:spring-mvc.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
