@@ -36,7 +36,7 @@ import com.foryou.user.service.UUserService;
  * <p>
  * *******
  * <p>
- * @author zhou-baicheng
+ * @author zwg
  * @email  i@itboy.net
  * @version 1.0,2016年5月3日 <br/>
  * 

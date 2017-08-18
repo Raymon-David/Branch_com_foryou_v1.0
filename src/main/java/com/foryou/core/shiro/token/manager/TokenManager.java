@@ -24,7 +24,7 @@ import com.foryou.core.shiro.token.ShiroToken;
  * 创建　周柏成　2014年3月3日 　<br/>
  * <p>
  * 
- * @author zhou-baicheng
+ * @author zwg
  * 
  * @version 1.0,2014年3月3日 
  * 

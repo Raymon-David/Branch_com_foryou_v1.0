@@ -8,7 +8,7 @@ import com.foryou.common.utils.StringUtils;
 /**
  * 
  * 权限选择
- * @author zhou-baicheng
+ * @author zwg
  *
  */
 public class UPermissionBo extends UPermission implements Serializable {

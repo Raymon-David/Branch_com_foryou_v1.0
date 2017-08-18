@@ -27,7 +27,7 @@ import freemarker.template.TemplateModelException;
  * <p>
  * *******
  * <p>
- * @author zhou-baicheng
+ * @author zwg
  * 
  * @version 1.0,2014年4月28日 <br/>
  * 

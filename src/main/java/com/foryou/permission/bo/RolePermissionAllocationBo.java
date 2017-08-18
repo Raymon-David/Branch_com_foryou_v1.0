@@ -3,7 +3,7 @@ package com.foryou.permission.bo;
 import java.io.Serializable;
 /**
  * 权限分配 查询列表BO
- * @author zhou-baicheng
+ * @author zwg
  *
  */
 public class RolePermissionAllocationBo implements Serializable {

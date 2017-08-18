@@ -33,7 +33,7 @@ import com.foryou.user.manager.UserManager;
  * <p>
  * *******
  * <p>
- * @author zhou-baicheng
+ * @author zwg
  * @email  i@itboy.net
  * @version 1.0,2016年5月26日 <br/>
  * 

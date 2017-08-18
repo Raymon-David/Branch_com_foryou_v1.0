@@ -5,7 +5,7 @@ import java.io.Serializable;
 import com.foryou.common.model.UUser;
 /**
  * 用户角色分配 查询列表BO
- * @author zhou-baicheng
+ * @author zwg
  *
  */
 public class UserRoleAllocationBo extends UUser implements Serializable {

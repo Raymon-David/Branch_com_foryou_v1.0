@@ -24,7 +24,7 @@ import sun.misc.BASE64Decoder;
 /**
  * String工具
  * 主要对 StringUtils 的一些方法进行重写,达到更方便的使用
- * @author zhou-baicheng
+ * @author zwg
  *
  */
 public class StringUtils extends org.apache.commons.lang.StringUtils{
@@ -32,7 +32,7 @@ public class StringUtils extends org.apache.commons.lang.StringUtils{
 	/**
 	 * 一次性判断多个或单个对象为空。
 	 * @param objects
-	 * @author zhou-baicheng
+	 * @author zwg
 	 * @return 只要有一个元素为Blank，则返回true
 	 */
 	public static boolean isBlank(Object...objects){
@@ -67,7 +67,7 @@ public class StringUtils extends org.apache.commons.lang.StringUtils{
 	/**
 	 * 一次性判断多个或单个对象不为空。
 	 * @param objects
-     * @author zhou-baicheng
+     * @author zwg
 	 * @return 只要有一个元素不为Blank，则返回true
 	 */
 	public static boolean isNotBlank(Object...objects){

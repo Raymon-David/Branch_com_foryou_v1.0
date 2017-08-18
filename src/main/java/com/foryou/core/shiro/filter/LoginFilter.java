@@ -25,7 +25,7 @@ import com.foryou.core.shiro.token.manager.TokenManager;
  * 区分　责任人　日期　　　　说明<br/>
  * 创建　周柏成　2016年6月2日 　<br/>
  *
- * @author zhou-baicheng
+ * @author zwg
  * @email  so@foryou.com
  * @version 1.0,2016年6月2日 <br/>
  * 

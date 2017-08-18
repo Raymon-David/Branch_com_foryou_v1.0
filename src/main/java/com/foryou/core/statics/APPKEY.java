@@ -2,7 +2,7 @@ package com.foryou.core.statics;
 /**
  * 不可变参数定义
  * 第三方参数
- * @author zhou-baicheng
+ * @author zwg
  *
  */
 public interface APPKEY {

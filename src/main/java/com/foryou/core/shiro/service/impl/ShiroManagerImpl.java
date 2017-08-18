@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.Resource;
+import javax.annotation.Resources;
 
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.filter.mgt.DefaultFilterChainManager;
@@ -30,12 +31,12 @@ import com.foryou.core.shiro.service.ShiroManager;
  * 区分　责任人　日期　　　　说明<br/>
  * 创建　周柏成　2016年6月2日 　<br/>
  *
- * @author zhou-baicheng
+ * @author zwg
  * @email  so@foryou.com
  * @version 1.0,2016年6月2日 <br/>
  * 
  */
-
+@Resource()
 public class ShiroManagerImpl implements ShiroManager {
 	
 	// 注意/r/n前不能有空格

@@ -22,7 +22,7 @@ import com.foryou.core.shiro.cache.ShiroCacheManager;
  * <p>
  * *******
  * <p>
- * @author zhou-baicheng
+ * @author zwg
  * @email  json@foryou.com
  * @version 1.0,2016年4月29日 <br/>
  * 

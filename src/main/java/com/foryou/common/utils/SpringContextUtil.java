@@ -20,7 +20,7 @@ import org.springframework.context.ApplicationContextAware;
  * <p>
  * *******
  * <p>
- * @author zhou-baicheng
+ * @author zwg
  * @email  i@itboy.net
  * @version 1.0,2016年4月4日 <br/>
  * 
