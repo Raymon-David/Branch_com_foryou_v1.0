@@ -35,6 +35,7 @@ import com.foryou.core.shiro.service.ShiroManager;
  * @version 1.0,2016年6月2日 <br/>
  * 
  */
+
 public class ShiroManagerImpl implements ShiroManager {
 	
 	// 注意/r/n前不能有空格

@@ -6,13 +6,12 @@
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
         <link   rel="icon" href="https://open.foryou.com/favicon.ico" type="image/x-icon" />
 		<link   rel="shortcut icon" href="https://open.foryou.com/favicon.ico" />
-        <!-- CSS -->
-        <link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/reset.css">
-        <link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/supersized.css">
-        <link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/style.css"/>
+        <link rel="stylesheet" href="../../../css/common/reset.css">
+        <link rel="stylesheet" href="../../../css/common/supersized.css">
+        <link rel="stylesheet" href="../../../css/common/style.css"/>
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-            <script src="http://static.supportfolios.com/js/www/html5shiv.js"></script>
+		<script src="../../../js/common/html5shiv.js"></script>
         <![endif]-->
 		<style>
 			canvas{position: fixed; top: 0px; left: 0px; }
@@ -168,11 +167,11 @@
             </form>
         </div>
         <!-- Javascript -->
-       <script  src="${basePath}/js/common/jquery-1.8.3.min.js"></script>
-        <script src="${basePath}/js/common/md5.js"></script>
-        <script src="${basePath}/js/common/supersized.3.2.7.min.js"></script>
-        <script src="${basePath}/js/common/supersized-init.js"></script>
-		<script  src="${basePath}/js/common/layer/layer.js"></script>
+       <script  src="../../../js/common/jquery-1.8.3.min.js"></script>
+        <script src="../../../js/common/md5.js"></script>
+        <script src="../../../js/common/supersized.3.2.7.min.js"></script>
+        <script src="../../../js/common/supersized-init.js"></script>
+		<script  src="../../../js/common/layer/layer.js"></script>
         <script >
 			jQuery(document).ready(function() {
 				try{
