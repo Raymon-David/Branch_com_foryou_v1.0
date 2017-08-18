@@ -60,7 +60,7 @@
 			</div>
 			<#--/row-->
 		</div>
-		<script  src="http://open.foryou.com/common/jquery/jquery1.8.3.min.js"></script>
+		<script  src="${basePath}/common/jquery/jquery1.8.3.min.js"></script>
 		<script  src="${basePath}/js/common/layer/layer.js"></script>
 		<script  src="${basePath}/js/common/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script  src="${basePath}/js/common/bootstrap/bootstrap-treeview.js"></script>

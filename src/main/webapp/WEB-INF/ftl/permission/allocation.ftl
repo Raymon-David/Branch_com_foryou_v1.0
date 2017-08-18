@@ -8,7 +8,7 @@
 		<link   rel="shortcut icon" href="https://open.foryou.com/favicon.ico" />
 		<link href="${basePath}/js/common/bootstrap/3.3.5/css/bootstrap.min.css?${_v}" rel="stylesheet"/>
 		<link href="${basePath}/css/common/base.css?${_v}" rel="stylesheet"/>
-		<script  src="http://open.foryou.com/common/jquery/jquery1.8.3.min.js"></script>
+		<script  src="${basePath}/common/jquery/jquery1.8.3.min.js"></script>
 		<script  src="${basePath}/js/common/layer/layer.js"></script>
 		<script  src="${basePath}/js/common/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script  src="${basePath}/js/shiro.demo.js"></script>

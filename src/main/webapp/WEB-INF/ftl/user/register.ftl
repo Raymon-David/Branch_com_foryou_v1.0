@@ -11,9 +11,9 @@
 
         <!-- CSS -->
         <#--link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'-->
-		<link rel="stylesheet" href="http://open.foryou.com/itboy/js/itboy/app/reset.css"/>
-        <link rel="stylesheet" href="http://open.foryou.com/itboy/js/itboy/app/supersized.css"/>
-        <link rel="stylesheet" href="http://open.foryou.com/itboy/js/itboy/app/style.css"/>
+		<link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/reset.css"/>
+        <link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/supersized.css"/>
+        <link rel="stylesheet" href="${basePath}/itboy/js/itboy/app/style.css"/>
 		<style>
 			#vcode >img{cursor:pointer;margin-bottom: -15px;border-radius:5px;}
 		</style>
@@ -42,10 +42,10 @@
         </div>
 
         <!-- Javascript -->
-         <script  src="http://open.foryou.com/common/jquery/jquery1.8.3.min.js"></script>
-        <script src="http://open.foryou.com/common/MD5.js"></script>
-        <script src="http://open.foryou.com/itboy/js/itboy/app/supersized.3.2.7.min.js"></script>
-        <script src="http://open.foryou.com/itboy/js/itboy/app/supersized-init.js"></script>
+         <script  src="${basePath}/common/jquery/jquery1.8.3.min.js"></script>
+        <script src="${basePath}/common/MD5.js"></script>
+        <script src="${basePath}/itboy/js/itboy/app/supersized.3.2.7.min.js"></script>
+        <script src="${basePath}/itboy/js/itboy/app/supersized-init.js"></script>
 		<script  src="${basePath}/js/common/layer/layer.js"></script>
         <script >
 			jQuery(document).ready(function() {
