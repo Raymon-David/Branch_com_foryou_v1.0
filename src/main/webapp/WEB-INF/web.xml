@@ -67,10 +67,10 @@
 		<filter-name>shiroFilter</filter-name>
 		<url-pattern>*.shtml</url-pattern>
 	</filter-mapping>
-<!--	<filter-mapping>-->
-<!--		<filter-name>shiroFilter</filter-name>-->
-<!--		<url-pattern>*.html</url-pattern>-->
-<!--	</filter-mapping>-->
+	<filter-mapping>
+		<filter-name>shiroFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
 
 	<listener>
 		<description>spring监听器</description>

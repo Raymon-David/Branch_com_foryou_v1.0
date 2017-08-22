@@ -67,13 +67,20 @@ public class ShiroManagerImpl implements ShiroManager {
 			LoggerUtils.fmtError(getClass(), e, "加载文件出错。file:[%s]", fileName);
 		}
 		String section = "base_auth";
-		Set<String> keys = ini.get(section).keySet();
 		StringBuffer sb = new StringBuffer();
-		for (String key : keys) {
-			String value = ini.get(section, key);
-			sb.append(key).append(" = ")
-			.append(value).append(CRLF);
+
+		if(ini != null){
+			Set<String> keys = ini.get(section).keySet();
+
+			for (String key : keys) {
+				String value = ini.get(section, key);
+				sb.append(key).append(" = ")
+						.append(value).append(CRLF);
+			}
+		}else{
+			sb.append("");
 		}
+
 		
 		return sb.toString();
 
