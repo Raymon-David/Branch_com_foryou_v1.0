@@ -183,41 +183,41 @@
 				document.onkeydown=function(event){
 					var e = event || window.event || arguments.callee.caller.arguments[0];
 					if(e && e.keyCode==13){ 
-						$('#login').click();
+						$("#login").click();
 					}
 				}; 
 			
 				//登录操作
-			    $('#login').click(function(){
+			    $("#login").click(function(){
 			    	
-			        var username = $('.username').val();
-			        var password = $('.password').val();
+			        var username = $(".username").val();
+			        var password = $(".password").val();
 			        if(username == '') {
-			            $('.error').fadeOut('fast', function(){
-			                $('.error').css('top', '27px').show();
+			            $(".error").fadeOut('fast', function(){
+			                $(".error").css('top', '27px').show();
 			            });
-			            $('.error').fadeIn('fast', function(){
-			                $('.username').focus();
+			            $(".error").fadeIn('fast', function(){
+			                $(".username").focus();
 			            });
 			            return false;
 			        }
 			        if(password == '') {
-			            $('.error').fadeOut('fast', function(){
-			                $('.error').css('top', '96px').show();
+			            $(".error").fadeOut('fast', function(){
+			                $(".error").css('top', '96px').show();
 			            });
-			            $(this).find('.error').fadeIn('fast', function(){
-			                $('.password').focus();
+			            $(this).find(".error").fadeIn('fast', function(){
+			                $(".password").focus();
 			            });
 			            return false;
 			        }
-			        var pswd = MD5(username +"#" + password),
+			        var pswd = hex_md5(username +"#" + password),
 			        	data = {pswd:pswd,email:username,rememberMe:$("#rememberMe").is(':checked')};
 			        var load = layer.load();
 			        $.post("${basePath}/u/submitLogin.shtml",data ,function(result){
 			        	layer.close(load);
 			    		if(result && result.status != 200){
 			    			layer.msg(result.message,function(){});
-			    			$('.password').val('');
+			    			$(".password").val('');
 			    			return;
 			    		}else{
 			    			layer.msg('登录成功！');
@@ -229,6 +229,8 @@
 			    	},"json");
 			        
 			    });
+
+
 			    $('.page-container form .username, .page-container form .password').keyup(function(){
 			        $(this).parent().find('.error').fadeOut('fast');
 			    });
