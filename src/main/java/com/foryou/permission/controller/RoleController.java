@@ -20,8 +20,8 @@ import com.foryou.permission.service.RoleService;
 import com.foryou.user.manager.UserManager;
 /**
  * 
- * 开发公司：itboy.net<br/>
- * 版权：itboy.net<br/>
+ * 开发公司：foryou.com<br/>
+ * 版权：foryou.com<br/>
  * <p>
  * 
  * 用户角色管理
@@ -29,12 +29,12 @@ import com.foryou.user.manager.UserManager;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年5月26日 　<br/>
+ * 创建　zwg　2016年5月26日 　<br/>
  * <p>
  * *******
  * <p>
  * @author zwg
- * @email  i@itboy.net
+ * @email  i@foryou.com
  * @version 1.0,2016年5月26日 <br/>
  * 
  */

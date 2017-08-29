@@ -21,7 +21,7 @@ import net.sf.json.JSONObject;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年6月2日 　<br/>
+ * 创建　zwg　2016年6月2日 　<br/>
  *
  * @author zwg
  * @email  so@foryou.com

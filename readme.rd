@@ -68,18 +68,18 @@
         <!--cookie的有效时间 -->
         <property name="maxAge" value="-1"/>
         <!-- 配置存储Session Cookie的domain为 一级域名
-        <property name="domain" value=".itboy.net"/>
+        <property name="domain" value=".foryou.com"/>
          -->
     </bean>
 
-上面配置是去掉了 Session  的存储Key 的作用域，之前设置的.itboy.net  ，是写到当前域名的 一级域名  下，这样就可以做到N 个 二级域名  下，三级、四级....下 Session  都是共享的。
+上面配置是去掉了 Session  的存储Key 的作用域，之前设置的.foryou.com  ，是写到当前域名的 一级域名  下，这样就可以做到N 个 二级域名  下，三级、四级....下 Session  都是共享的。
 
     <!-- 用户信息记住我功能的相关配置 -->
     <bean id="rememberMeCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
         <constructor-arg value="v_v-re-baidu"/>
         <property name="httpOnly" value="true"/>
         <!-- 配置存储rememberMe Cookie的domain为 一级域名
-        <property name="domain" value=".itboy.net"/>
+        <property name="domain" value=".foryou.com"/>
          -->
         <property name="maxAge" value="2592000"/><!-- 30天时间，记住我30天 -->
     </bean>

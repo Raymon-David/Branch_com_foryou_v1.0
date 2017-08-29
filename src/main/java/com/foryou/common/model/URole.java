@@ -7,8 +7,8 @@ import java.util.List;
 import net.sf.json.JSONObject;
 /**
  * 
- * 开发公司：itboy.net<br/>
- * 版权：itboy.net<br/>
+ * 开发公司：foryou.com<br/>
+ * 版权：foryou.com<br/>
  * <p>
  * 
  * 权限角色
@@ -16,12 +16,12 @@ import net.sf.json.JSONObject;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年5月25日 　<br/>
+ * 创建　zwg　2016年5月25日 　<br/>
  * <p>
  * *******
  * <p>
  * @author zwg
- * @email  i@itboy.net
+ * @email  i@foryou.com
  * @version 1.0,2016年5月25日 <br/>
  * 
  */

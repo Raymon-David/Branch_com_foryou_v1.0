@@ -7,8 +7,8 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * 
- * 开发公司：itboy.net<br/>
- * 版权：itboy.net<br/>
+ * 开发公司：foryou.com<br/>
+ * 版权：foryou.com<br/>
  * <p>
  * 
  * 静态获取Bean 
@@ -16,12 +16,12 @@ import org.springframework.context.ApplicationContextAware;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年4月4日 　<br/>
+ * 创建　zwg　2016年4月4日 　<br/>
  * <p>
  * *******
  * <p>
  * @author zwg
- * @email  i@itboy.net
+ * @email  i@foryou.com
  * @version 1.0,2016年4月4日 <br/>
  * 
  */

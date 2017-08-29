@@ -19,8 +19,8 @@ import com.foryou.common.utils.StringUtils;
 
 /**
  * 
- * 开发公司：itboy.net<br/>
- * 版权：itboy.net<br/>
+ * 开发公司：foryou.com<br/>
+ * 版权：foryou.com<br/>
  * <p>
  * 
  * 
@@ -28,13 +28,13 @@ import com.foryou.common.utils.StringUtils;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年5月3日 　<br/>
+ * 创建　zwg　2017年8月29日 　<br/>
  * <p>
  * *******
  * <p>
  * @author zwg
- * @email  i@itboy.net
- * @version 1.0,2016年5月3日 <br/>
+ * @email  i@foryou.com
+ * @version 1.0,2017年8月29日 <br/>
  * 
  */
 public class BaseController {

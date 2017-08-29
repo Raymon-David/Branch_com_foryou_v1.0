@@ -21,7 +21,7 @@ import com.foryou.core.shiro.token.ShiroToken;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2014年3月3日 　<br/>
+ * 创建　zwg　2014年3月3日 　<br/>
  * <p>
  * 
  * @author zwg

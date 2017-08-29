@@ -18,7 +18,7 @@ import org.apache.commons.lang.StringUtils;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2013-6-11　<br/>
+ * 创建　zwg　2013-6-11　<br/>
  * <p>
  * 
  * @author

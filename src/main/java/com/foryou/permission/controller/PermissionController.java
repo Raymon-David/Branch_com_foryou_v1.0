@@ -18,8 +18,8 @@ import com.foryou.core.mybatis.page.Pagination;
 import com.foryou.permission.service.PermissionService;
 /**
  * 
- * 开发公司：itboy.net<br/>
- * 版权：itboy.net<br/>
+ * 开发公司：foryou.com<br/>
+ * 版权：foryou.com<br/>
  * <p>
  * 
  * 用户权限管理
@@ -27,12 +27,12 @@ import com.foryou.permission.service.PermissionService;
  * <p>
  * 
  * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年5月26日 　<br/>
+ * 创建　zwg　2016年5月26日 　<br/>
  * <p>
  * *******
  * <p>
  * @author zwg
- * @email  i@itboy.net
+ * @email  i@foryou.com
  * @version 1.0,2016年5月26日 <br/>
  * 
  */
