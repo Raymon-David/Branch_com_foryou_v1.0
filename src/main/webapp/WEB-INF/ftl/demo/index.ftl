@@ -4,8 +4,8 @@
 		<meta charset="utf-8" />
 		<title>安全提交Demo  —个人中心</title>
 		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
-		<link   rel="icon" href="https://open.foryou.com/favicon.ico" type="image/x-icon" />
-		<link   rel="shortcut icon" href="https://open.foryou.com/favicon.ico" />
+		<link   rel="icon" href="/favicon.ico" type="image/x-icon" />
+		<link   rel="shortcut icon" href="/favicon.ico" />
 		<link href="${basePath}/js/common/bootstrap/3.3.5/css/bootstrap.min.css?${_v}" rel="stylesheet"/>
 		<link href="${basePath}/css/common/base.css?${_v}" rel="stylesheet"/>
 	</head>
