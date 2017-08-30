@@ -27,13 +27,30 @@
         <div class="page-container">
             <h1>Login</h1>
             <form id="_form" action="" method="post">
-                <input type="text" name="account" class="username" placeholder="Account">
-                <input type="password" name="password" class="password" placeholder="Password">
-                <div style="text-align: left; margin-left: 10px;">
+				<table>
+					<td style="width: 150px">
+						<h6>用&nbsp;户&nbsp;&nbsp;</h6>
+					</td>
+					<td>
+						<input type="text" name="account" class="username" placeholder="Account">
+					</td>
+				</table>
+				<br/>
+                <table>
+                    <td style="width: 150px">
+                        <h6>密&nbsp;码&nbsp;&nbsp;</h6>
+                    </td>
+                    <td>
+                        <input type="password" name="password" class="password" placeholder="Password">
+                    </td>
+                </table>
+
+
+                <div style="text-align: left; margin-left: 30px;">
                 <label><input type="checkbox" checked="checked"  id="rememberMe"style="width: 10px; height: 10px;">记住我</label>
                 </div>
                 <button type="button" id="login" class="btn btn-default">登录</button>
-                <button type="button" id="register" class="btn btn-default">Register</button>
+                <button type="button" id="register" class="btn btn-default">注册</button>
                 <div class="connect" >
 	                <p>有问题请这样解决:</p>
 	                <p>
@@ -41,8 +58,6 @@
 	                    <a class="" style="width: auto; color: rgb(255, 255, 255);" target="_blank" href="http://jq.qq.com/?_wv=1027&k=YpqCNd">加QQ群：259217951交流</a>
 	                </p>
 	            </div>
-                
-                <div class="error"><span>+</span></div>
             </form>
         </div>
         <!-- Javascript -->
